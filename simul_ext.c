@@ -209,11 +209,6 @@ int ComprobarComando(char* strcomando, char* orden, char* argumento1, char* argu
     return 0;
 }
 
-void Procs_salir() 
-{
-	exit(-1);
-}
-
 int Imprimir(EXT_ENTRADA_DIR* directorio, EXT_BLQ_INODOS* inodos, EXT_DATOS* memdatos, char* nombre)
 {
 	int x;
